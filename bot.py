@@ -11,8 +11,8 @@ from telegram.ext import Updater, CommandHandler, Filters, MessageHandler, Inlin
 from telegram.utils.helpers import escape_markdown
 
 #Solicitar TOKEN
-TOKEN = os.getenv("TOKEN") # $env:TOKEN="1749144591:AAFGcfvsegYWDudHxJDjPde_jj4NyvCwrs0"
-mode = os.getenv("MODE") # $env:MODE="dev"
+TOKEN = os.getenv("TOKEN") 
+mode = os.getenv("MODE") 
 
 #Configurar Logging
 logging.basicConfig(
